@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<title>Grids</title>
+
+	<style type="text/css">
+		.gray{
+			background: #f1f1f1;
+			border: 1px solid black;
+			height: 100px;
+		}
+		.black{
+			color: white;
+			background-color: black;
+			border: 1px solid white;
+			height: 100px;
+		}
+	</style>
+</head>
+<body>
+	
+<!-- =============================================== -->
+<!-- Grid have 12 units to be divided -->
+<!-- 4 different sizes-- xs, sm, md, lg(xtra small, small, medium, large-->
+<!-- nested grids -->
+<!-- ================================================ -->
+
+
+
+<div class="container">
+<!-- 	<div class="row">
+		<div class="col-lg-1 col-md-2 gray">Col LG 1</div>
+		<div class="col-lg-1 col-md-2 gray">Col LG 1</div>
+		<div class="col-lg-1 col-md-2 gray">Col LG 1</div>
+		<div class="col-lg-1 col-md-2 gray">Col LG 1</div>
+		<div class="col-lg-1 col-md-2 gray">Col LG 1</div>
+		<div class="col-lg-1 col-md-2 gray">Col LG 1</div>
+		<div class="col-lg-1 col-md-2 gray">Col LG 1</div>
+		<div class="col-lg-1 col-md-2 gray">Col LG 1</div>
+		<div class="col-lg-1 col-md-2 gray">Col LG 1</div>
+		<div class="col-lg-1 col-md-2 gray">Col LG 1</div>
+		<div class="col-lg-1 col-md-2 gray">Col LG 1</div>
+		<div class="col-lg-1 col-md-2 gray">Col LG 1</div>
+	</div> -->
+
+	<div class="row">
+
+		<!-- nested grid -->
+		<div class="col-md-3 col-sm-6 gray">
+			<div class="row">
+				<div class="col-lg-6 black">First</div>
+				<div class="col-lg-6 black">Second</div>
+			</div>
+		</div>
+
+		<div class="col-md-3 col-sm-6 gray">TOUR DATE</div>
+		<div class="col-md-3 col-sm-6 gray">TOUR DATE</div>
+		<div class="col-md-3 col-sm-6 gray">
+			<div class="row">
+				<div class="col-lg-2 black">RG</div>
+				<div class="col-lg-2 black">RG</div>
+				<div class="col-lg-2 black">RG</div>
+				<div class="col-lg-2 black">RG</div>
+				<div class="col-lg-2 black">RG</div>
+				<div class="col-lg-2 black">RG</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>
